@@ -7,6 +7,7 @@ class App extends React.Component {
     this.state = {
       reponse1: "",
       reponse2: "",
+      reponse3: "",
       decor1: "",
       decor2: "",
       decor3: "",
@@ -19,11 +20,11 @@ class App extends React.Component {
         <div className="Gauche Page">
           <h2>
             Tu veux que je te souhaite ton anniversaire ? Tu vas devoir le
-            mériter !
+            mériter ! (Indique le jeu d'origine)
           </h2>
           <div className="Question">
             <h3>Question 1</h3>
-            <img></img>
+            <img src="./img/mysterious_cake.png"></img>
             <hr />
             <label>Quel est ce gâteau ?</label>
             <hr />
@@ -48,7 +49,8 @@ class App extends React.Component {
         </div>
         <div className={`Droite Page ${this.state.decor1}`}>
           <p>Hello</p>
-          <p>World</p>
+          <p>Loïc</p>
+          <p>Helloïc ?</p>
         </div>
       </div>
     );
