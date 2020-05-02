@@ -1,6 +1,7 @@
 .App {
   display: flex;
   text-align: center;
+  height: 100vh;
 }
 
 .Page {
@@ -9,12 +10,9 @@
   padding: 10px;
 }
 
-.Input {
-  flex-direction: row-reverse;
+.Gauche {
+  overflow: scroll;
 }
-
-/*.Gauche {
-}*/
 
 .Droite {
   background-image: url("/img/fond_fête.jpg");
@@ -26,6 +24,10 @@
 
 .Visible {
   display: initial;
+}
+
+.CakeLoïc {
+  margin-top: 25vh;
 }
 
 .Yellowgreen {
