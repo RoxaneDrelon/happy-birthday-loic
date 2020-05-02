@@ -16,5 +16,23 @@
 /*.Gauche {
 }*/
 
-/*.Droite {
-}*/
+.Droite {
+  background-image: url("/img/fond_fête.jpg");
+}
+
+.Invisible {
+  display: none;
+}
+
+.Visible {
+  display: initial;
+}
+
+.Yellowgreen {
+  color: yellowgreen;
+}
+
+h2 {
+  background-color: #b0154b;
+  padding: 5px;
+}
